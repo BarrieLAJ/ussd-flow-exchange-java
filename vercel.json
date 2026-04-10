@@ -1,12 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "Dockerfile",
-      "use": "@vercel/static-build"
-    }
-  ],
-  "routes": [
-    { "src": "/api/exchange", "dest": "/" }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "_comment": "Java is not natively supported by Vercel. Deploy this project using Docker to Railway, Render, or Fly.io. See README.md for instructions."
 }
